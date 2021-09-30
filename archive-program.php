@@ -19,9 +19,6 @@ pageBanner(array(
     echo paginate_links();
     ?>
     </ul>
-    </div>
-
-
   </div>
 <?php
 get_footer();
