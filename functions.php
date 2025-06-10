@@ -38,7 +38,7 @@ function pageBanner($args = NULL){
 
 function alex_files() {
   /**chage style fr scrip javascript */
-    wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyBhWMrhyyxUPCcHhzpTIKh2RR9SdVtXYyU', NULL,'1.0',true);
+  wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE', NULL, '1.0', true);
     wp_enqueue_script('main-alex-naranjo-js', get_theme_file_uri('/build/index.js'), array('jquery'),'1.0',true);
     /**Style */
     /**only one style */
